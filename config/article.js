@@ -9,22 +9,21 @@ export default () => ({ // eslint-disable-line
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date(),
+  publishedDate: new Date('2016-03-02'),
 
-  headline: 'Politics and the English Language',
+  headline: 'Calculate the hidden cost of fund fees',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful' +
-           'and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'Fund managers’ fees can make a huge difference to wealth over the long term. Our calculator helps you work out just how much.',
 
   topic: {
-    name: 'Starter Kit',
-    url: '/foo',
+    name: 'Personal Finance',
+    url: 'https://www.ft.com/personal-finance',
   },
 
   relatedArticle: {
-    text: 'Related article »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+    text: '',
+    url: '',
   },
 
   mainImage: {
@@ -38,8 +37,10 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Author One', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'Naomi Rovnick', url: 'https://www.ft.com/stream/authorsId/Q0ItMDMzNDMwNg==-QXV0aG9ycw==' },
+    { name: 'Bob Haslett', url: 'https://www.ft.com/stream/authorsId/Q0ItQkg1NDMyMQ==-QXV0aG9ycw==' },
+    { name: 'Gavin Jackson', url: 'https://www.ft.com/stream/authorsId/Q0ItMDQ0MTYwMw==-QXV0aG9ycw=='},
+    { name: 'Martin Stabe', url: 'https://www.ft.com/stream/authorsId/Q0ItTVM1NDMyMQ==-QXV0aG9ycw==' },
   ],
 
   // Appears in the HTML <title>

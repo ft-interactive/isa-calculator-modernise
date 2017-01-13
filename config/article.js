@@ -44,10 +44,10 @@ export default () => ({ // eslint-disable-line
   ],
 
   // Appears in the HTML <title>
-  title: '',
+  title: 'Calculate the hidden cost of fund fees',
 
   // meta data
-  description: '',
+  description: 'Calculate the hidden cost of fund fees',
 
   /*
   TODO: Select Twitter card type -
